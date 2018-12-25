@@ -40,7 +40,7 @@ func init() {
 	clog.AddrFunc = func() (string, error) {
 		return api.Name(conf.C.Clog.Addr)
 	}
-	clog.Init(conf.C.Clog.Name, "", conf.C.Clog.level, conf.C.Clog.Mode)
+	clog.Init(conf.C.Clog.Name, "", conf.C.Clog.Level, conf.C.Clog.Mode)
 }
 
 func main() {
