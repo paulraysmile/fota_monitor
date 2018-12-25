@@ -1,14 +1,14 @@
 {
   "dev": {
     "port": 29118, // configure admin port
-    "rootpath": "/home/simplejia/Programming/go/ws/src/github.com/simplejia",
+    "rootpath": "/home/Programming/go/ws/src/github.com/paulraysmile",
     "environ": "ulimit -n 65536",
     "svrs": {
       // demo
       "demo": "wsp/demo/demo"
     },
     "clog": {
-      "name": "cmonitor",
+      "name": "fota-application",
       "addr": "clog.srv.ns",
       "mode": 1, // 0: none, 1: localfile, 2: clog (数字代表bit位)
       "level": 15 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
@@ -16,14 +16,14 @@
   },
   "test": {
     "port": 29118, // configure admin port
-    "rootpath": "/home/simplejia/Programming/go/ws/src/github.com/simplejia",
+    "rootpath": "/home/Programming/go/ws/src/github.com/paulraysmile",
     "environ": "ulimit -n 65536",
     "svrs": {
       // demo
       "demo": "wsp/demo/demo"
     },
     "clog": {
-      "name": "cmonitor",
+      "name": "fota-application",
       "addr": "clog.srv.ns",
       "mode": 1, // 0: none, 1: localfile, 2: clog (数字代表bit位)
       "level": 15 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
@@ -31,14 +31,14 @@
   },
   "prod": {
     "port": 29118, // configure admin port
-    "rootpath": "/home/simplejia/Programming/go/ws/src/github.com/simplejia",
+    "rootpath": "/home/Programming/go/ws/src/github.com/paulraysmile",
     "environ": "ulimit -n 65536",
     "svrs": {
       // demo
       "demo": "wsp/demo/demo"
     },
     "clog": {
-      "name": "cmonitor",
+      "name": "fota-application",
       "addr": "clog.srv.ns",
       "mode": 2, // 0: none, 1: localfile, 2: clog (数字代表bit位)
       "level": 14 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
